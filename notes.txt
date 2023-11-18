@@ -1,7 +1,11 @@
 Structure: 
 
 "/" : Home page
+"/:city" : Selecting an option from a potential dropdown menu from home page brings you to the sub url. Ex: "/san-francisco"
+"/:city/:entity" : Renders table containing info of murder dependent on user info to a sub url from "/:city". Ex: "/san-francisco/murder-weapon" or "/oakland/race" or "/los-angeles/motive"
 
-"/:city" : Selecting an option from a potential dropdown menu from home page brings you to the sub url, ex: "/san-francisco"
 
-"/:city/:entity" : Renders table containing info of murder dependent on user info from "/:city" url, ex: "/san-francisco/murder-weapon" or "/oakland/race" or "/los-angeles/motive"
+Updates:
+-   Server is now working, you can run the project from command prompt or terminal by writing "npm start" in the /thedeconstructors directory
+
+-   Structure is finalized
